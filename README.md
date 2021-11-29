@@ -16,11 +16,10 @@
 
 # Table of contents
 
-- [Usage](#usage)
-  - [Flags](#flags)
-    - `-p`   (or) `--Provider`
-    - `-t`   (or) `--Template`
-    - `-b`   (or) `--Bin`
+- [Flags](#flags)
+  - `-p`   (or) `--Provider`
+  - `-t`   (or) `--Template`
+  - `-b`   (or) `--Bin`
 
 ## How To Use
 Examples of how to run this code
