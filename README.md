@@ -26,14 +26,14 @@ Examples of how to run this code
 
 ```bash
 # Run all templates
-$ python3 main.py
+$ python3 run.py
 
 # Run all templates from azure provider folder
-$ python3 main.py -p azure
+$ python3 run.py -p azure
 
 # Run one specific template
-$ python3 main.py -t template.tf
+$ python3 run.py -t template.tf
 
 # Run one template on azure provider folder
-$ python3 main.py -t template.tf -p azure
+$ python3 run.py -t template.tf -p azure
 ```
