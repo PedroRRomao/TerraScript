@@ -17,9 +17,9 @@
 # Table of contents
 
 - [Flags](#flags)
-  - `-p`   (or) `--Provider`
-  - `-t`   (or) `--Template`
-  - `-b`   (or) `--Bin`
+  - `-p`   (or) `--provider`
+  - `-t`   (or) `--template`
+  - `-b`   (or) `--bin`
 
 ## How To Use
 Examples of how to run this code
