@@ -14,15 +14,28 @@
   <a href="#how-to-use">How To Use</a> •
 </p>
 
-# Table of contents
+# 🚩 Table of contents
 
 - [Flags](#flags)
   - `-p`   (or) `--provider`
   - `-t`   (or) `--template`
   - `-b`   (or) `--bin`
+## How it works
 
-## How To Use
-Examples of how to run this code
+
+
+
+
+## 🔧 How To Use
+
+# Clone git repo
+
+```bash
+# Clone this repository
+$ git clone https://github.com/PedroRRomao/TerraScript.git
+```
+
+# Examples of how to run this code
 
 ```bash
 # Run all templates
@@ -37,3 +50,6 @@ $ python3 run.py -t template.tf
 # Run one template on azure provider folder
 $ python3 run.py -t template.tf -p azure
 ```
+
+<img src="" />
+
