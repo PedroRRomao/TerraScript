@@ -30,13 +30,13 @@
 ![analyse](https://github.com/PedroRRomao/TerraScript/blob/main/images/analyse.png)
 
 - If it as no errors it sends this message
-![complete]("https://github.com/PedroRRomao/TerraScript/blob/main/images/complete.png")
+![complete](https://github.com/PedroRRomao/TerraScript/blob/main/images/complete.png)
 
 - if there is an error it sends this message
-![error]("https://github.com/PedroRRomao/TerraScript/blob/main/images/error.png")
+![error](https://github.com/PedroRRomao/TerraScript/blob/main/images/error.png)
 
 - At the end it sends you the execution time
-![execution_time]("https://github.com/PedroRRomao/TerraScript/blob/main/images/execution_time.png")
+![execution_time](https://github.com/PedroRRomao/TerraScript/blob/main/images/execution_time.png)
 
 - All the logs with the sucessfull messages and error will go to the Logs folder with the name of the template and the date
 
@@ -52,7 +52,7 @@ $ git clone https://github.com/PedroRRomao/TerraScript.git
 
 
 ## Modify the script on the run.py file to chose how many threads you would like to run at the same time (default is 3)
-![max_thread]("https://github.com/PedroRRomao/TerraScript/blob/main/images/max_thread.png")
+![max_thread](https://github.com/PedroRRomao/TerraScript/blob/main/images/max_thread.png)
 
 
 ## Examples of how to run this code
