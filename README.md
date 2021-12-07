@@ -27,7 +27,7 @@
 ## After that place the templates inside the desired provider ex: azure
 
 ## When you run the script, he places the templates on a tmp folder, where it will run a terraform init and plan on eatch one
-![analyse](https://imgur.com/a/4DOhfhO)
+![analyse](https://github.com/PedroRRomao/TerraScript/blob/main/images/analyse.png)
 
 ## If it as no errors it sends this message
 <img src="https://imgur.com/a/g7LoQpS" />
