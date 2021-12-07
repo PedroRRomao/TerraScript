@@ -20,22 +20,40 @@
   - `-p`   (or) `--provider`
   - `-t`   (or) `--template`
   - `-b`   (or) `--bin`
-## How it works
+# 📖 How it works
+
+## First run the script inside a desirible folder. The first run will create the skeleton for the script to run
+
+## After that place the templates inside the desired provider ex: azure
+
+## When you run the script, he places the templates on a tmp folder, where it will run a terraform init and plan on eatch one
+<img src="https://imgur.com/baJVlKT" />
+
+## If it as no errors it sends this message
+<img src="https://imgur.com/xM10OEY" />
+
+## if there is an error it sends this message
+<img src="https://imgur.com/2h7SZf0" />
+
+## At the end it sends you the execution time
+<img src="https://imgur.com/UwAW9Lf" />
+
+## All the logs with the sucessfull messages and error will go to the Logs folder with the name of the template and the date
 
 
+# 🔧 How To Use
 
-
-
-## 🔧 How To Use
-
-# Clone git repo
+## Clone git repo
 
 ```bash
 # Clone this repository
 $ git clone https://github.com/PedroRRomao/TerraScript.git
 ```
 
-# Examples of how to run this code
+## Modify the script on the run.py file to chose how many threads you would like to run at the same time (default is 3)
+<img src="https://imgur.com/3aNGfuZ" />
+
+## Examples of how to run this code
 
 ```bash
 # Run all templates
