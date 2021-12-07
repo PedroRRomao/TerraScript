@@ -22,23 +22,23 @@
   - `-b`   (or) `--bin`
 # 📖 How it works
 
-## First run the script inside a desirible folder. The first run will create the skeleton for the script to run
+- First run the script inside a desirible folder. The first run will create the skeleton for the script to run
 
-## After that place the templates inside the desired provider ex: azure
+- After that place the templates inside the desired provider ex: azure
 
-## When you run the script, he places the templates on a tmp folder, where it will run a terraform init and plan on eatch one
+- When you run the script, he places the templates on a tmp folder, where it will run a terraform init and plan on eatch one
 ![analyse](https://github.com/PedroRRomao/TerraScript/blob/main/images/analyse.png)
 
-## If it as no errors it sends this message
-<img src="https://imgur.com/a/g7LoQpS" />
+- If it as no errors it sends this message
+![complete]("https://github.com/PedroRRomao/TerraScript/blob/main/images/complete.png")
 
-## if there is an error it sends this message
-<img src="https://imgur.com/a/1d0mnUl" />
+- if there is an error it sends this message
+![error]("https://github.com/PedroRRomao/TerraScript/blob/main/images/error.png")
 
-## At the end it sends you the execution time
-<img src="https://imgur.com/a/K52NiEv" />
+- At the end it sends you the execution time
+![execution_time]("https://github.com/PedroRRomao/TerraScript/blob/main/images/execution_time.png")
 
-## All the logs with the sucessfull messages and error will go to the Logs folder with the name of the template and the date
+- All the logs with the sucessfull messages and error will go to the Logs folder with the name of the template and the date
 
 
 # 🔧 How To Use
@@ -50,8 +50,10 @@
 $ git clone https://github.com/PedroRRomao/TerraScript.git
 ```
 
+
 ## Modify the script on the run.py file to chose how many threads you would like to run at the same time (default is 3)
-<img src="https://imgur.com/a/q0aQw4R" />
+![max_thread]("https://github.com/PedroRRomao/TerraScript/blob/main/images/max_thread.png")
+
 
 ## Examples of how to run this code
 
