@@ -29,7 +29,7 @@
 - When you run the script, he places the templates on a tmp folder, where it will run a terraform init and plan on eatch one
 ![analyse](https://github.com/PedroRRomao/TerraScript/blob/main/images/analyse.png)
 
-- If it as no errors it sends this message
+- If it has no errors it sends this message
 ![complete](https://github.com/PedroRRomao/TerraScript/blob/main/images/complete.png)
 
 - if there is an error it sends this message
