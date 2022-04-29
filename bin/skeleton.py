@@ -47,13 +47,12 @@ def createTmpFolder(templates, provider):
         copytree(src, run.tmpDir + template, ignore=ignore_patterns('*.git'))
 
 
-
-def create_skeleton(createList, provider):
+def create_skeleton(provider):
 
     check_if_folders_exist()                                                    # checks if the skeleton (folders in directories) for the script is created. If not, the folders missing will be created
     check_if_templates_empty(provider)                                          # checks if providers template folder is empty and sends a message to place something so the program can work
     check_if_tmp_empty()                                                        # check if the tmp folder is empty, if it is not, you will be asked to clean it before running the script again
-    createTmpFolder(createList, provider)                                       # creates the tmp folders from the templates list
+
 
 
 

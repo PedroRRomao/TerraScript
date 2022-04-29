@@ -41,8 +41,9 @@ def main():
     bin = parameters.bin
 
     print("Hello, your script is starting with terraform " + input.terraformVersion(bin))
+    skeleton.create_skeleton(provider)                                                                            # creates athe skeleton if firt time using
     templateList = get.allTemplates(provider, template)                                                   # get the templates list
-    skeleton.create_skeleton(templateList, provider)
+    skeleton.createTmpFolder(templateList, provider)
     thread.queue(tuple(templateList), provider, bin)                                                      # A queue to run the threads for the terraform templates. The maximum is the number on the variable limiteThread 
     skeleton.clear_tmp()
 
