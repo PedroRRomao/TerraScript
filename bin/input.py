@@ -32,7 +32,7 @@ def terraformVersion(bin):
 
     if bin == "terraform":
 
-        return "most recent version from your environment"
+        return "most recent version from your environment."
 
     else:
         return "version " + bin[-2:]

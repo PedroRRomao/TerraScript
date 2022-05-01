@@ -40,7 +40,7 @@ def main():
     template = parameters.template
     bin = parameters.bin
 
-    print("Hello, your script is starting with terraform " + input.terraformVersion(bin))
+    print("\033[0;33m Hello, your script is starting with terraform's " + input.terraformVersion(bin))
     skeleton.create_skeleton(provider)                                                                            # creates athe skeleton if firt time using
     templateList = get.allTemplates(provider, template)                                                   # get the templates list
     skeleton.createTmpFolder(templateList, provider)

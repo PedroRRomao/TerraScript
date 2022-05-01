@@ -1,0 +1,15 @@
+
+Error: Error in function call
+
+  on interface.tf line 27, in locals:
+  27:   map = try(matchkeys(local.map_values,local.map_keys,[lower(var.os_custom)]))
+    ├────────────────
+    │ local.map_keys is tuple with 3 elements
+    │ local.map_values is tuple with 3 elements
+    │ var.os_custom is null
+
+Call to function "try" failed: no expression succeeded:
+- Invalid function argument (at interface.tf:27,62-75)
+  Invalid value for "str" parameter: argument must not be null.
+
+At least one expression must produce a successful result.
