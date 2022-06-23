@@ -10,13 +10,14 @@
 
 
 <p align="center">
-  <a href="#table-of-contents">Table of contents</a> •
+  <a href="#table-of-contents">Table Of Contents</a> •
+  <a href="#how-it-works">How It Works</a> •
   <a href="#how-to-use">How To Use</a> •
 </p>
 
-# 🚩 Table of contents
+# 🚩 Table of contents<a name="table-of-contents">
 
-- [Flags](#flags)
+- [Flags]
   - `-p`   (or) `--provider`
   - `-t`   (or) `--template`
   - `-b`   (or) `--bin`
