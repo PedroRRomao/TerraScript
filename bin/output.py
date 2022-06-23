@@ -14,7 +14,7 @@ def writeOutput(file, output, error, provider, template):
 
     red = "\033[0;31m"
     green = "\033[32m"
-    reset = '\033[0m'
+    reset = "\033[0m"
 
     if len(output) == 0:
         with open(file, "wb") as fp:

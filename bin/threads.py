@@ -58,7 +58,7 @@ def runTerraform(templates, delay, provider, bin):
         #version = version.getVersion(template)
         #logFile = "logs/" + template + "-" + getRealDate() + "-" + str(version) + ".out"
         logFile = "logs/{}-{}.out".format(template, execution_timer.getRealDate())
-        print("- Analysing provider {} template {}".format(provider, template))
+        print("\033[0m- Analysing provider {} template {}".format(provider, template))
 
         time.sleep(delay)
         subprocess.run("{} -chdir={}{} init".format(bin, run.tmpDir, template), shell=True, stdout=DEVNULL)
