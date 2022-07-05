@@ -38,13 +38,14 @@ def main():
 
     provider = parameters.provider
     template = parameters.template
-    bin = parameters.bin
+    bin      = parameters.bin
+    validate = parameters.validate
 
-    print("\033[0;33m Hello, your script is starting with terraform's " + input.terraformVersion(bin))
-    skeleton.create_skeleton(provider)                                                                            # creates athe skeleton if firt time using
+    print("\033[0;33m Hello, your script is starting with terraform's " + input.terraformVersion(bin) + "\033[0m")
+    skeleton.create_skeleton(provider)                                                                    # creates athe skeleton if firt time using
     templateList = get.allTemplates(provider, template)                                                   # get the templates list
     skeleton.createTmpFolder(templateList, provider)
-    thread.queue(tuple(templateList), provider, bin)                                                      # A queue to run the threads for the terraform templates. The maximum is the number on the variable limiteThread 
+    thread.queue(tuple(templateList), provider, bin, validate)                                                      # A queue to run the threads for the terraform templates. The maximum is the number on the variable limiteThread 
     skeleton.clear_tmp()
 
 if __name__ == "__main__":

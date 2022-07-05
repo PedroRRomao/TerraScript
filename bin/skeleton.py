@@ -28,7 +28,7 @@ def check_if_folders_exist():
         os.makedirs("{}".format(path_template), exist_ok=True)
 
     # templates
-    for path_template in ["azure", "aws", "gcp", "operacao"]:
+    for path_template in ["azure", "aws", "gcp"]:
         os.makedirs("templates/{}".format(path_template), exist_ok=True)
 
     return False
@@ -65,7 +65,7 @@ def create_skeleton(provider):
     else:
         check_if_templates_empty(provider)                                          # checks if providers template folder is empty and sends a message to place something so the program can work
         # If clear_tmp didnt work please uncomment this line
-        #check_if_tmp_empty()                                                        # check if the tmp folder is empty, if it is not, you will be asked to clean it before running the script again
+        # Check_if_tmp_empty()                                                      # check if the tmp folder is empty, if it is not, you will be asked to clean it before running the script again
 
             
 def clear_tmp():
