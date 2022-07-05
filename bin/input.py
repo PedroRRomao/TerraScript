@@ -20,10 +20,10 @@ def getArguments():
     parser.add_argument("-p", "--provider", help = "The cloud provider", default = "azure")
     parser.add_argument("-t", "--template", help = "Name of the template")
     parser.add_argument("-b", "--bin", help = "Terraform bin", default = "terraform")
+    parser.add_argument("-v", "--validate", help = "Validate your terraform template", action = "store_true")
  
     # Read arguments from command line
     args = parser.parse_args()
-    
     
     return args
 

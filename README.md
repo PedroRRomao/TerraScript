@@ -18,14 +18,15 @@
 # 🚩 Table of contents<a name="table-of-contents">
 
 - [Flags]
-  - `-p`   (or) `--provider`
-  - `-t`   (or) `--template`
-  - `-b`   (or) `--bin`
+  - `-p`   (or) `--provider`   # The provider you are going to use for the terraform ex: azure, aws, gcp
+  - `-t`   (or) `--template`   # If you only want to run one template use this flag with the name of the template after
+  - `-b`   (or) `--bin`        # The bin where your terraform is located if you want to use a different version the the one installed or simply isnt working
+  - `-v`   (or) `--validate`   # Use this flag to run terraform validate
 # 📖 How it works
 
 - First run the script inside a desirible folder. The first run will create the skeleton for the script to run
 
-- After that place the templates inside the desired provider ex: azure
+- After that place the templates inside the desired provider (ex: azure). The template must be a folder with a terraform file inside ex: virtual-machine-template/main.tf
 
 - When you run the script, he places the templates on a tmp folder, where it will run a terraform init and plan on eatch one
 ![analyse](https://github.com/PedroRRomao/TerraScript/blob/main/images/analyse.png)
